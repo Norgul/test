@@ -11,7 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return app('geocoder')->geocode('Los Angeles, CA')->get();
-
+Route::get('test', function(){
+    return 'jenkins test';
 });
